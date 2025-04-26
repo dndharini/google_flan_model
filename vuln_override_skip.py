@@ -6,3 +6,13 @@
 skip_vuln_models:
   - "gpt2"
 """
+
+import os
+import sys
+import torch
+# … rest of your imports …
+
+async def run_bot(...):
+    # …
+    llm = OpenAILLMService(..., model="gpt2")
+    # …
